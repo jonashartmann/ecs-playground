@@ -1,7 +1,7 @@
 ﻿using System;
 using Unity.Entities;
 
-namespace Assets.App
+namespace Assets.App.Components
 {
     [Serializable]
     public struct InputData : IComponentData

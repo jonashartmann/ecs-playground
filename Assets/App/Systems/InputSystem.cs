@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using Unity.Entities;
+using Assets.App.Components;
 
 namespace Assets.App
 {
@@ -26,7 +27,6 @@ namespace Assets.App
                 inputData.KeyUp = Input.GetKey(KeyCode.W) ? 1 : 0;
                 inputData.KeyRight = Input.GetKey(KeyCode.D) ? 1 : 0;
                 inputData.KeyDown = Input.GetKey(KeyCode.S) ? 1 : 0;
-
             }
         }
     }
